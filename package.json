@@ -1,0 +1,19 @@
+{
+  "name": "red-contrib-sendmail-env-credential",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sendmail-env-credential.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/high-u/node-red-contrib-sendmail-env-credential.git"
+  },
+  "author": "high-u",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/high-u/node-red-contrib-sendmail-env-credential/issues"
+  },
+  "homepage": "https://github.com/high-u/node-red-contrib-sendmail-env-credential#readme"
+}
