@@ -7,11 +7,11 @@ module.exports = function(RED) {
     var node = this;
 
     node.transporter = nodemailer.createTransport({
-      host: config.host,
-      port: config.port,
+      host: process.env[config.host],
+      port: process.env[config.port],
       auth: {
-        user: config.user,
-        pass: config.pass
+        user: process.env[config.user],
+        pass: process.env[config.pass]
       }
     });
 
