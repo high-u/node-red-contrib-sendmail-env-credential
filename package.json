@@ -1,5 +1,5 @@
 {
-  "name": "red-contrib-sendmail-env-credential",
+  "name": "node-red-contrib-sendmail-env-credential",
   "version": "0.0.1",
   "description": "",
   "main": "sendmail-env-credential.js",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/high-u/node-red-contrib-sendmail-env-credential/issues"
   },
-  "homepage": "https://github.com/high-u/node-red-contrib-sendmail-env-credential#readme"
+  "homepage": "https://github.com/high-u/node-red-contrib-sendmail-env-credential#readme",
+  "node-red": {
+    "nodes": {
+      "sendmail-env-credential": "sendmail-env-credential.js"
+    }
+  },
+  "dependencies": {
+    "nodemailer": "^4.6.7"
+  }
 }
